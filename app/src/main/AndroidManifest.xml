@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activity.SavedInstanceStateActivity" />
         <activity android:name=".activity.LocationDistanceActivity" />
-        <activity android:name=".activity.DataActivity"></activity>
+        <activity android:name=".activity.DataActivity" />
+        <activity android:name=".activity.ListViewActivity"></activity>
     </application>
 
 </manifest>

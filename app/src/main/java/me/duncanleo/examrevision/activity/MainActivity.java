@@ -9,7 +9,7 @@ import android.widget.Button;
 import me.duncanleo.examrevision.R;
 
 public class MainActivity extends AppCompatActivity {
-    private Button sis, location, data;
+    private Button sis, location, data, list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         sis = (Button) findViewById(R.id.sisButton);
         location = (Button) findViewById(R.id.locationButton);
         data = (Button) findViewById(R.id.dataButton);
+        list = (Button) findViewById(R.id.listButton);
 
         sis.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 launchActivity(DataActivity.class);
+            }
+        });
+
+        list.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchActivity(ListViewActivity.class);
             }
         });
     }

@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.SavedInstanceStateActivity" />
+        <activity android:name=".activity.LocationDistanceActivity" />
+        <activity android:name=".activity.DataActivity"></activity>
     </application>
 
 </manifest>

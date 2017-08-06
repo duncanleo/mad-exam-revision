@@ -1,4 +1,4 @@
-package me.duncanleo.examrevision;
+package me.duncanleo.examrevision.activity;
 
 import android.location.Location;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.Locale;
+
+import me.duncanleo.examrevision.R;
 
 public class MainActivity extends AppCompatActivity {
     public static final String KEY_EDIT_TEXT = "editText";
